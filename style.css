@@ -16,3 +16,7 @@ p{
 .white{
     color: white;
 }
+
+.bg{
+    background-image : url("../images/FirstOrder.png")
+}
