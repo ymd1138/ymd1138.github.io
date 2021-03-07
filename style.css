@@ -1,7 +1,54 @@
 @charset "utf-8";
 
+nav { /* Navigation Bar */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #7f112e; 
+    color: #fff; 
+    /* OCRB font */
+        font-family: ocr-b-std, monospace;
+        font-style: normal;
+        font-weight: 400;
+}
+
+.nav-links{ /* Navi bar */
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li{ /* Delete dots */
+    list-style: none;
+}
+
+.nav-links a{ /* Navi Text */
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-links a:hover {
+    color: gold
+}
+
+
+
+h1 {
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+    margin: 0 0 30px 0;
+    letter-spacing: 5px;
+}
+
 .title-text{
-    color: red;
+    color: white;
 }
 .title-background{
     background-color: #7f112e;
@@ -10,12 +57,32 @@
     font-style: italic;
 }
 
-p{
-    color: red;
+.speech {
+    width: 50%;
+    line-height: 2;
+    display: inline-block;
+    background-color: #7f112e;
+    padding: 20px;
+    position: relative;
+    z-index: 999;
+    margin: 50px 0 0;
+    color: #fff;
+    letter-spacing: 2px;
 }
+
 .white{
     color: white;
+    background-color: #03A9F4;
 }
-body{
+
+.base {
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    right: 30px;
+}
+
+/*body{
     background-image: url("images/FirstOrder.png")
 }
